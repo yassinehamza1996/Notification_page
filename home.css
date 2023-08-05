@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #f9fafe !important;
+}
+.content {
+  background: #ffffff;
+  width: 87%;
+  margin-top: 3rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url("./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf")
+    format("woff2");
+}
+@font-face {
+  font-family: "MeduimFont";
+  src: url("./assets/fonts/static/PlusJakartaSans-Medium.ttf") format("woff2");
+}
+@font-face {
+  font-family: "VariableFont";
+  src: url("./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf")
+    format("woff2");
+}
+
+.title {
+  font-family: "ExtraBold";
+  font-size: 24px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.mark-as-read {
+  color: #485e8b;
+  cursor: pointer;
+}
+.mark-as-read:hover {
+  color: #122f61;
+}
+.notif-cls {
+  background-color: #083377;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  border-radius: 6px;
+  margin-left: 1rem;
+}
+.notif-text {
+  background-color: #f6fafd;
+  padding: 10px;
+  padding-left: 1.5rem !important;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.notif-text:hover{
+    background-color: #e6e9eb;
+    cursor: pointer;
+}
+.text-ntf {
+  display: inline;
+  font-size: 14px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: gray;
+}
+.text-ntf:hover {
+  color: #152e64;
+}
+.description-ntf {
+  font-family: "MeduimFont";
+  display: inline;
+  font-size: 16px;
+  padding-left: 0.5rem;
+  letter-spacing: 1px;
+  color: gray;
+  width: 100%;
+}
+.para-div {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  width: 102%;
+}
+.notification-point{
+    background-color: orange;
+    padding: 0px;
+    height: 8px;
+    width: 8px;
+    color: transparent;
+    border-radius: 20px;
+    display: inline;
+    margin-top: 2%;
+    margin-left: 1%;
+    display: inline-flex;
+    line-height: 0.5rem;
+}
+
+.text-read-message{
+    background-color: white;
+    padding: 10px;
+    padding-left: 1.5rem !important;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.text-msg{
+    background-color: #f6fafd;
+    font-family: 'MeduimFont';
+    color: gray;
+    padding: 1rem;
+    letter-spacing: 1px;
+    line-height: 28px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.text-msg:hover{
+    background-color: #e6e9eb;
+    cursor: pointer;
+}
+.white-background {
+    background-color: white;
+  }
+.white-background-txt-msg{
+    background-color: white;
+    border: 1px solid lightgray;
+    font-family: 'MeduimFont';
+    color: gray;
+    padding: 1rem;
+    letter-spacing: 1px;
+    line-height: 28px;
+    border-radius: 4px;
+}
+.hide-notif-button{
+    display: none;
+}
